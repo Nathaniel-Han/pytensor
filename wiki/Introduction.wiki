@@ -2,7 +2,7 @@
 
 = Introduction =
 
-Tensors, also known as n-way arrays/ multi-dimensional arrays are widely used in various data-mining settings to extract patterns from time-evolving data.  
+Tensors, also known as n-way arrays/ multi-dimensional arrays are widely used in various data-mining applications. Combined with the easy representation of  
 
 
 = Details =

@@ -2,7 +2,7 @@
 
 = Introduction =
 
-Tensors, also known as n-way arrays/ multi-dimensional arrays are widely used in various data-mining applications. Combined with the easy representation of  
+Tensors, also known as n-way arrays/ multi-dimensional arrays are widely used in various data-mining applications. Combined with the easy representation of multi-way data, tensor algebra offers a powerful means to organize, represent and visualize complex data. 
 
 
 = Details =

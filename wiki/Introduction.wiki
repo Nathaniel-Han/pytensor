@@ -1,13 +1,18 @@
-#summary One-sentence summary of this page.
-
 = Introduction =
 
-Tensors, also known as n-way arrays/ multi-dimensional arrays are widely used in various data-mining applications. Combined with the easy representation of multi-way data, tensor algebra offers a powerful means to organize, represent and visualize complex data. 
+Tensors, also known as n-way arrays/ multi-dimensional arrays are widely used in various data-mining applications. Combined with the easy representation of multi-dimensional datta, tensor algebra offers a powerful means to organize, represent and visualize complex data. In this section, we provide a brief overview of how tensors can be used in the context of representing molecular dynamics trajectory data as well as how one can construct tensors out of them. 
 
-
-= Details =
-
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+Formally, a  tensor $\mathcal{X}$ of
+$M$ dimensions can be defined as a multi-dimensional array of real
+values,
+\begin{equation}
+\mathcal{X} \in \Re^{N_{1} \times N_{2} \times \hdots \times N_{M}}
+\end{equation}
+where $N_{i}$ represents the $i^{th}$ dimension for $(1 \leq i \leq
+M)$.  A discussion of possible operations on a tensor is beyond the
+scope of this report, however, a review of tensors and related
+operations are provided in Kolda, et al~\cite{Kolda_2007}. In what
+follows, tensors are represented with calligraphic letters (e.g.
+$\mathcal{X}$), matrices by bold capital letters(e.g. $\textbf{X}$),
+vectors as bold small letters ($\textbf{x}$) and specific instances
+as normal text ($x$).
